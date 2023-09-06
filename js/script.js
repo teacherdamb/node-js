@@ -1,5 +1,13 @@
+//IMPORT NAME FUNCTIONS BEGIN
+
 const { Person } = require("./index");
 
-const person = new Person("Matheus");
+require("../modules/path");
 
-console.log(person.sayMyName());
+//IMPORT FUNCTION ENDS
+
+function buttonTest() {
+  alert("O botão foi clicado!");
+}
+
+document.getElementById("test-id").onclick = buttonTest;
